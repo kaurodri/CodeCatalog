@@ -5,3 +5,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #0d1117;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+}
+
+header {
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #ccc;
+}
+
+nav {
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #ccc;
+}
+
+main {
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #ccc;
+}
+
+footer{
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #ccc;
+}
